@@ -50,7 +50,8 @@ function draw() {
    plinko[l].display();
  }
  if(frameCount% 60 === 0){
-   particles.push(new Particle(250,0,10));
+   
+  particles.push(new Particle(random(20,300),0,10));
  }
  for(var l = 0; l<particles.length; l++){
  particles[l].display();

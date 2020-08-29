@@ -3,7 +3,8 @@ class Division {
       var options = {
           isStatic: true
       }
-      this.body = Bodies.rectangle(x,y,10,100,options);
+      
+      this.body = Bodies.rectangle(x,y,5,150,options);
       this.width = 5;
       this.height = 150;
       World.add(world, this.body);
